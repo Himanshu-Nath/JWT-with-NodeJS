@@ -1,0 +1,29 @@
+OPTION 1
+http://www.csfieldguide.org.nz/en/interactives/rsa-key-generator/index.html
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+OPTION 2
+http://travistidwell.com/jsencrypt/demo/index.html
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+OPTION 3
+Open git bash then,
+Syntax to create private key
+
+#ssh-keygen -t rsa -b 1024 -C "abc@gmail.com"
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+OPTION 4
+Open openssl from c drive
+
+#genrsa -out private2.key 1024
+#rsa -in private2.key -outform PEM -pubout -out public2.key
